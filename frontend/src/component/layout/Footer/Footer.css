@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: #3e2a1c;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.footer-section h1 {
+  letter-spacing: 1px;
+}

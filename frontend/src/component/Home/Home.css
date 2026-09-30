@@ -1,0 +1,71 @@
+.home-banner {
+  background: linear-gradient(135deg, #3e2a1c, #6b4a2c);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.home-banner-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  background-color: #c8862b;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.home-heading {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #3e2a1c;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 2rem 1rem;
+}
+
+.category-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 130px;
+  padding: 1.2rem 0.8rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.category-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  border-color: #c8862b;
+}
+
+.category-tile-icon {
+  font-size: 2rem;
+}
+
+.category-tile-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3e2a1c;
+  text-align: center;
+}
+
+.home-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem 2rem 3rem;
+}

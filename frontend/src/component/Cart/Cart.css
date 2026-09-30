@@ -1,0 +1,143 @@
+.cart-page {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.cart-items {
+  flex: 2;
+  min-width: 300px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cart-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.cart-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cart-item-price {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.cart-item-variant {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #c8862b;
+  background: #fbf1e2;
+  padding: 0.1rem 0.5rem;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+.cart-item-qty {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cart-item-qty button {
+  padding: 0.3rem 0.7rem;
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.cart-item-qty span {
+  padding: 0 0.7rem;
+}
+
+.cart-item-subtotal {
+  min-width: 80px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.cart-item-remove {
+  background: none;
+  border: none;
+  color: #c0392b;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cart-summary {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  height: fit-content;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cart-summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #c8862b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 0.5rem;
+}
+
+.empty-cart i {
+  font-size: 3rem;
+  color: #ccc;
+}
+
+.empty-cart a {
+  color: #c8862b;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .cart-item {
+    flex-wrap: wrap;
+  }
+
+  .cart-item-info {
+    min-width: 120px;
+  }
+
+  .cart-item-subtotal {
+    text-align: left;
+  }
+}

@@ -1,0 +1,84 @@
+.products-page {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+.products-filters {
+  width: 240px;
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+}
+
+.filter-block {
+  margin-bottom: 1.2rem;
+}
+
+.filter-block label {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+  color: #555;
+}
+
+.price-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.price-inputs input,
+.filter-block select {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.products-main {
+  flex: 1;
+}
+
+.products-count {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #3e2a1c;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .products-page {
+    flex-direction: column;
+  }
+  .products-filters {
+    width: 100%;
+  }
+}

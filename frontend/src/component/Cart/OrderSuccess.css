@@ -1,0 +1,22 @@
+.order-success-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.order-success-page i {
+  font-size: 4rem;
+  color: #2e7d32;
+}
+
+.order-success-page a {
+  padding: 0.6rem 1.5rem;
+  background-color: #3e2a1c;
+  color: #fff;
+  border-radius: 4px;
+}
