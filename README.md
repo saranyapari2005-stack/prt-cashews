@@ -1,4 +1,4 @@
-# Nutty Roots — Dry Fruits & Nuts E-commerce
+# PRT-Cashews — Dry Fruits & Nuts E-commerce
 
 Full MERN stack storefront: browse/search/filter products, cart, WhatsApp-based
 checkout, product reviews, order history, and a full admin dashboard.
